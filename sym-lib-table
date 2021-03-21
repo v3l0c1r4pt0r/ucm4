@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "CM4IO")(type "KiCad")(uri "/home/admin/Research/cm4/CM4IO-KiCAD/CM4IO.kicad_sym")(options "")(descr ""))
+  (lib (name "Special")(type "KiCad")(uri "${KIPRJMOD}/Special.kicad_sym")(options "")(descr ""))
 )
