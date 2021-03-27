@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "CM4IO")(type "KiCad")(uri "/home/admin/Research/cm4/CM4IO-KiCAD/CM4IO.pretty")(options "")(descr ""))
   (lib (name "Connector_RJ")(type "KiCad")(uri "/home/admin/Pobrane/Connector_RJ.pretty")(options "")(descr ""))
+  (lib (name "Special")(type "KiCad")(uri "${KIPRJMOD}/Special.pretty")(options "")(descr ""))
 )
