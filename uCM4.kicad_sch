@@ -3789,7 +3789,7 @@
     (uuid debd560e-0565-4cbf-9569-5f25352bd66e)
     (property "Reference" "JP1" (id 0) (at 137.16 162.0478 0))
     (property "Value" "SolderJumper_2_Open" (id 1) (at 137.16 164.3465 0))
-    (property "Footprint" "" (id 2) (at 137.16 166.37 0)
+    (property "Footprint" "Special:Jumper" (id 2) (at 137.16 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 137.16 166.37 0)
@@ -4145,7 +4145,7 @@
     (property "Value" "SW_DIP_x01" (id 1) (at 19.8121 161.5578 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 16.51 160.02 0)
+    (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (id 2) (at 16.51 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 16.51 160.02 0)
@@ -4160,7 +4160,7 @@
     (uuid 311375dd-fa64-4cb4-aaf9-68277d25563b)
     (property "Reference" "SW2" (id 0) (at 125.73 171.8268 0))
     (property "Value" "SW_DIP_x01" (id 1) (at 125.73 174.1255 0))
-    (property "Footprint" "" (id 2) (at 125.73 177.8 0)
+    (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (id 2) (at 125.73 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 125.73 177.8 0)
@@ -4635,7 +4635,7 @@
       (reference "J4") (unit 1) (value "USB_B_Micro") (footprint "Special:U254-05XX-4BH83")
     )
     (path "/debd560e-0565-4cbf-9569-5f25352bd66e"
-      (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "")
+      (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Special:Jumper")
     )
     (path "/6e99bc10-5f29-45d8-a271-3de00e4eb307"
       (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
@@ -4689,10 +4689,10 @@
       (reference "R15") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/53e986ab-59c5-4be6-a04f-f5936095ef65"
-      (reference "SW1") (unit 1) (value "SW_DIP_x01") (footprint "")
+      (reference "SW1") (unit 1) (value "SW_DIP_x01") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/311375dd-fa64-4cb4-aaf9-68277d25563b"
-      (reference "SW2") (unit 1) (value "SW_DIP_x01") (footprint "")
+      (reference "SW2") (unit 1) (value "SW_DIP_x01") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/76d915db-a75c-454e-b4b8-962461913747"
       (reference "U1") (unit 1) (value "RT9742GGJ5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
