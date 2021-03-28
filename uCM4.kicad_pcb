@@ -378,9 +378,9 @@
     (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp 4b7db0be-894d-48ba-8db2-6dbee7de5f53))
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp d3f1da83-95e8-40ed-9bc7-48a0838b3748))
     (pad "1" smd roundrect (at -0.8625 0) (locked) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 9 "Net-(C2-Pad1)") (tstamp 975bafb5-3c95-4305-813e-e0c88f55f507))
+      (net 9 "Net-(C2-Pad1)") (pintype "passive") (tstamp 975bafb5-3c95-4305-813e-e0c88f55f507))
     (pad "2" smd roundrect (at 0.8625 0) (locked) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 4 "GND") (tstamp aee05b41-b565-45a5-82be-babebb33491b))
+      (net 4 "GND") (pintype "passive") (tstamp aee05b41-b565-45a5-82be-babebb33491b))
     (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2201,6 +2201,8 @@
 
   (segment (start 179.705 98.425) (end 178.34 99.79) (width 0.13) (layer "B.Cu") (net 4) (tstamp 577cf38d-7942-48a6-95a5-fe81b2b866ae))
   (segment (start 178.34 99.79) (end 172.589 99.79) (width 0.13) (layer "B.Cu") (net 4) (tstamp 6ddcc58e-3be7-4ba7-ba85-209ac2a4a1ea))
+  (segment (start 172.8875 89.8825) (end 172.5 89.495) (width 0.13) (layer "F.Cu") (net 9) (tstamp 0af175de-4e92-4ffb-b56c-3542c5dcf0be))
+  (segment (start 172.8875 93.5) (end 172.8875 89.8825) (width 0.13) (layer "F.Cu") (net 9) (tstamp 3dba9221-ce8d-4542-b191-97eafd408b13))
   (segment (start 155.75 96) (end 155.8375 95.9125) (width 0.13) (layer "F.Cu") (net 10) (tstamp 357f5415-86c1-4301-92c6-1ecba3a616b5))
   (segment (start 155.8375 95.9125) (end 155.8375 94.615) (width 0.13) (layer "F.Cu") (net 10) (tstamp 615105e9-2cf3-4c0f-897e-4ad63a6fb7a9))
   (segment (start 155.8375 94.615) (end 155.8375 95.5875) (width 0.13) (layer "F.Cu") (net 10) (tstamp f7b9227d-098e-4e1c-a1ae-104537ad0b0b))
