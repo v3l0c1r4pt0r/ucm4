@@ -3613,7 +3613,7 @@
   (symbol (lib_id "power:+3.3V") (at 161.29 170.18 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1f46fb11-3632-4bab-bb42-fb8cbe7df91c)
-    (property "Reference" "#PWR?" (id 0) (at 161.29 173.99 0)
+    (property "Reference" "#PWR0121" (id 0) (at 161.29 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 161.29 166.6326 0))
@@ -4353,7 +4353,7 @@
     (uuid 01206ff2-9474-4083-9f5e-454358df9096)
     (property "Reference" "U3" (id 0) (at 267.97 57.2728 0))
     (property "Value" "TPD4EUSB30" (id 1) (at 267.97 59.5715 0))
-    (property "Footprint" "Package_SON:USON-10_2.5x1.0mm_P0.5mm" (id 2) (at 243.84 78.74 0)
+    (property "Footprint" "Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm" (id 2) (at 243.84 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf" (id 3) (at 267.97 68.58 0)
@@ -4718,7 +4718,7 @@
       (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
     )
     (path "/1f46fb11-3632-4bab-bb42-fb8cbe7df91c"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+      (reference "#PWR0121") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/9f0bf6b6-f69e-4ba4-81d2-ef53481fe7fd"
       (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -4811,7 +4811,7 @@
       (reference "U2") (unit 1) (value "74LVC1G07") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering")
     )
     (path "/01206ff2-9474-4083-9f5e-454358df9096"
-      (reference "U3") (unit 1) (value "TPD4EUSB30") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
+      (reference "U3") (unit 1) (value "TPD4EUSB30") (footprint "Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm")
     )
   )
 )
