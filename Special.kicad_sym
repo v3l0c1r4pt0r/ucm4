@@ -77,7 +77,7 @@
     )
     (symbol "Ethernet_1_1"
       (pin passive line (at 16.51 3.81 270) (length 3.81)
-        (name "SH" (effects (font (size 1.27 1.27))))
+        (name "Shield" (effects (font (size 1.27 1.27))))
         (number "" (effects (font (size 1.27 1.27))))
       )
     )
