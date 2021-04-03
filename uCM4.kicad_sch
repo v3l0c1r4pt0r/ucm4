@@ -4391,7 +4391,7 @@
     (uuid 04e34fb1-a3be-46e0-8875-d2b71b4b5a2a)
     (property "Reference" "J2" (id 0) (at 144.145 32.1776 0))
     (property "Value" "Ethernet" (id 1) (at 144.145 34.4763 0))
-    (property "Footprint" "Connector_RJ:RJ45_UDE_RB1-125B8G1A" (id 2) (at 158.75 38.1 0)
+    (property "Footprint" "Special:RB1-2S5BAK1A" (id 2) (at 158.75 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 158.75 38.1 0)
@@ -4754,7 +4754,7 @@
       (reference "J1") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/04e34fb1-a3be-46e0-8875-d2b71b4b5a2a"
-      (reference "J2") (unit 1) (value "Ethernet") (footprint "Connector_RJ:RJ45_UDE_RB1-125B8G1A")
+      (reference "J2") (unit 1) (value "Ethernet") (footprint "Special:RB1-2S5BAK1A")
     )
     (path "/ae1796f2-3eee-4369-896e-b817a457af1e"
       (reference "J3") (unit 1) (value "Micro_SD_Card") (footprint "Special:TF-015")
