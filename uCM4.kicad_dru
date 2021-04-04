@@ -1,5 +1,45 @@
 (version 1)
 
-(rule "drill hole size"
+# Drill/Hole Size
+
+(rule "Drill Hole Size (Mechanical)"
 	(constraint hole (min 0.2mm) (max 6.3mm))
 )
+
+#(rule "Drill Hole Size Tolerance")
+
+(rule "Blind/Buried Vias"
+	(constraint disallow)
+	(condition "A.isBlindBuriedVia()")
+)
+
+(rule "Min. Via hole size"
+	(constraint hole (min 0.3mm))
+)
+
+#(rule "Min. Via diameter")
+
+(rule "PTH hole Size"
+	(constraint annular_width (min 0.15mm) (max 0.15mm))
+	(constraint hole (min 0.2mm) (max 6.35mm))
+	(condition "A.Type == 'Through-hole'")
+)
+
+#(rule "Pad Size")
+
+(rule "Min. Non-plated holes"
+	(constraint hole (min 0.5mm))
+	(condition "A.Type == 'NPTH, mechanical'")
+)
+
+(rule "Min. Plated Slots"
+	(constraint hole (min 0.65mm))
+	(condition "A.isPlated() && A.Shape == 'Oval'")
+)
+
+(rule "Min. Non-Plated Slots"
+	(constraint hole (min 1.0mm))
+	(condition "!A.isPlated() && A.Shape == 'Oval'")
+)
+
+(rule "Min. Castellated Holes")
