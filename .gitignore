@@ -19,5 +19,6 @@ fp-info-cache
 *-backups
 *.gbr
 *.gbrjob
+*.drl
 *.svg
 *.pdf
