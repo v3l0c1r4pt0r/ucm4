@@ -4737,7 +4737,7 @@
     (property "Value" "USB_B_Micro" (id 1) (at 271.2721 42.0508 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Special:U254-05XX-4BH83" (id 2) (at 261.62 40.64 0)
+    (property "Footprint" "Special:U254-05XX-4BH81" (id 2) (at 261.62 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 261.62 40.64 0)
@@ -5148,7 +5148,7 @@
       (reference "J3") (unit 1) (value "Micro_SD_Card") (footprint "Special:TF-015")
     )
     (path "/37290dec-d4dd-4c56-8b24-17283c9726cb"
-      (reference "J4") (unit 1) (value "USB_B_Micro") (footprint "Special:U254-05XX-4BH83")
+      (reference "J4") (unit 1) (value "USB_B_Micro") (footprint "Special:U254-05XX-4BH81")
     )
     (path "/debd560e-0565-4cbf-9569-5f25352bd66e"
       (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Special:Jumper")
