@@ -1,0 +1,36 @@
+M48
+; DRILL file {KiCad (5.99.0-9982-gb37b7d53b4)} date Fri Apr 16 19:50:37 2021
+; FORMAT={-:-/ absolute / inch / decimal}
+; #@! TF.CreationDate,2021-04-16T19:50:37+02:00
+; #@! TF.GenerationSoftware,Kicad,Pcbnew,(5.99.0-9982-gb37b7d53b4)
+; #@! TF.FileFunction,NonPlated,1,2,NPTH
+FMAT,2
+INCH
+; #@! TA.AperFunction,ComponentDrill,NonPlated,NPTH
+T1C0.0157
+; #@! TA.AperFunction,ComponentDrill,NonPlated,NPTH
+T2C0.0394
+; #@! TA.AperFunction,ComponentDrill,NonPlated,NPTH
+T3C0.1063
+; #@! TA.AperFunction,ComponentDrill,NonPlated,NPTH
+T4C0.1280
+%
+G90
+G05
+T1
+; not plated pad hole
+X4.9114Y-3.7717
+X4.9114Y-3.9291
+T2
+X5.3312Y-3.5992
+X5.6462Y-3.5992
+T3
+X4.8992Y-3.4843
+X4.8992Y-4.7835
+X6.7889Y-3.4843
+X6.7889Y-4.7835
+T4
+X6.498Y-3.986
+X6.498Y-4.436
+T0
+M30
