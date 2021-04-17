@@ -22,3 +22,5 @@ fp-info-cache
 *.drl
 *.svg
 *.pdf
+*.zip
+.*
