@@ -24,3 +24,4 @@ fp-info-cache
 *.pdf
 *.zip
 .*
+!.github/
