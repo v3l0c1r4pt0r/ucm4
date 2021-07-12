@@ -2,6 +2,8 @@
 
 Raspberry Pi Compute Module 4 micro carrier board
 
+![PCB render](.github/render.png)
+
 # Features
 
 * exactly same size as CM4
