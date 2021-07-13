@@ -4,8 +4,8 @@
 
   (title_block
     (title "uCM4 Base Board")
-    (date "2021-03-21")
-    (rev "0.1.0")
+    (date "2021-07-13")
+    (rev "0.1.1")
   )
 
   (lib_symbols
