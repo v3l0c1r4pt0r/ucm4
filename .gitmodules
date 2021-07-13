@@ -1,0 +1,3 @@
+[submodule "kicad-randoms"]
+	path = kicad-randoms
+	url = git@github.com:v3l0c1r4pt0r/kicad-randoms.git
