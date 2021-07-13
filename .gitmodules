@@ -1,3 +1,6 @@
 [submodule "kicad-randoms"]
 	path = kicad-randoms
 	url = git@github.com:v3l0c1r4pt0r/kicad-randoms.git
+[submodule "CM4IO-KiCAD"]
+	path = CM4IO-KiCAD
+	url = git@github.com:v3l0c1r4pt0r/CM4IO-KiCAD.git
