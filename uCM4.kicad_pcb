@@ -592,7 +592,7 @@
     (property "Sheetfile" "uCM4.kicad_sch")
     (property "Sheetname" "")
     (path "/04e34fb1-a3be-46e0-8875-d2b71b4b5a2a")
-    (fp_text reference "J2" (at 0 -16.1 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "J2" (at 7.01 -11.65 90 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 55aad0ec-eec4-47d5-a4cf-72fd9c3ea328)
     )
