@@ -55,10 +55,10 @@ writerow( out, ['Source:', net.getSource()] )
 writerow( out, ['Date:', net.getDate()] )
 writerow( out, ['Tool:', net.getTool()] )
 writerow( out, ['Component Count:', len(components)] )
-writerow( out, ['Ref', 'Value', 'Footprint', 'Datasheet', 'Manufacturer', 'Vendor'] )
+writerow( out, ['Comment', 'Designator', 'Footprint', 'LCSC#'] )
 
 # Output all of the component information (One component per row)
 for c in components:
-    writerow( out, [c.getRef(), c.getValue(), c.getFootprint(), c.getDatasheet(),
-        c.getField("Manufacturer"), c.getField("Vendor")])
+    writerow( out, [c.getValue(), c.getRef(), c.getFootprint(),
+        c.getField("LCSC#")])
 
