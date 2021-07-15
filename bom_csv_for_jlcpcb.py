@@ -23,7 +23,7 @@ sys.path.append('/usr/local/share/kicad/plugins/')
 # Import the KiCad python helper module
 import kicad_netlist_reader
 import csv
-import sys
+import os
 
 # Generate an instance of a generic netlist, and load the netlist tree from
 # the command line option. If the file doesn't exist, execution will stop
@@ -51,10 +51,11 @@ def writerow( acsvwriter, columns ):
 components = net.getInterestingComponents()
 
 # Output a field delimited header line
-writerow( out, ['Source:', net.getSource()] )
-writerow( out, ['Date:', net.getDate()] )
-writerow( out, ['Tool:', net.getTool()] )
-writerow( out, ['Component Count:', len(components)] )
+if os.getenv('DEBUG') == '1':
+    writerow( out, ['Source:', net.getSource()] )
+    writerow( out, ['Date:', net.getDate()] )
+    writerow( out, ['Tool:', net.getTool()] )
+    writerow( out, ['Component Count:', len(components)] )
 writerow( out, ['Comment', 'Designator', 'Footprint', 'LCSC#'] )
 
 # Output all of the component information (One component per row)
