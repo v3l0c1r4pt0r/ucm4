@@ -6,7 +6,7 @@ all:
 	zip oshpark.zip  *.drl *.gbr
 
 bom:
-	awk 'FS="," { print $$2 "," $$1 "," $$3 ",\"\""; };' uCM4-top-pos.csv | tail -n +2 > bom.auto.csv
+	python "bom_csv_for_jlcpcb.py" uCM4.xml bom.auto.csv
 
 cpl:
 	( echo '"Designator","Mid X","Mid Y","Layer","Rotation"'; awk 'FS="," { print $$1 "," $$4 "," $$5 ",\"Top\"," $$6; };' uCM4-top-pos.csv | tail -n +2 ) > cpl.auto.csv
