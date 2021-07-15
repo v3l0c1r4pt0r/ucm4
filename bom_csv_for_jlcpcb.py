@@ -17,6 +17,9 @@
 
 from __future__ import print_function
 
+import sys
+sys.path.append('/usr/local/share/kicad/plugins/')
+
 # Import the KiCad python helper module
 import kicad_netlist_reader
 import csv
