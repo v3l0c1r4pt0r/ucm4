@@ -4956,7 +4956,7 @@
     (property "Value" "SW_DIP_x01" (id 1) (at 19.8121 161.5578 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (id 2) (at 16.51 160.02 0)
+    (property "Footprint" "KiCAD_Randoms:PTS840_PM_SMTR_LFS" (id 2) (at 16.51 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 16.51 160.02 0)
@@ -4971,7 +4971,7 @@
     (uuid 311375dd-fa64-4cb4-aaf9-68277d25563b)
     (property "Reference" "SW2" (id 0) (at 125.73 171.8268 0))
     (property "Value" "SW_DIP_x01" (id 1) (at 125.73 174.1255 0))
-    (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (id 2) (at 125.73 177.8 0)
+    (property "Footprint" "KiCAD_Randoms:PTS840_PM_SMTR_LFS" (id 2) (at 125.73 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 125.73 177.8 0)
@@ -5524,10 +5524,10 @@
       (reference "R15") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/53e986ab-59c5-4be6-a04f-f5936095ef65"
-      (reference "SW1") (unit 1) (value "SW_DIP_x01") (footprint "Button_Switch_THT:SW_PUSH_6mm")
+      (reference "SW1") (unit 1) (value "SW_DIP_x01") (footprint "KiCAD_Randoms:PTS840_PM_SMTR_LFS")
     )
     (path "/311375dd-fa64-4cb4-aaf9-68277d25563b"
-      (reference "SW2") (unit 1) (value "SW_DIP_x01") (footprint "Button_Switch_THT:SW_PUSH_6mm")
+      (reference "SW2") (unit 1) (value "SW_DIP_x01") (footprint "KiCAD_Randoms:PTS840_PM_SMTR_LFS")
     )
     (path "/c771086f-6945-446c-a2ff-681ac70e1440"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
