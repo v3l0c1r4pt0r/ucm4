@@ -4990,7 +4990,7 @@
     (property "Value" "74LVC1G07" (id 1) (at 152.1461 183.7828 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering" (id 2) (at 148.59 182.88 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" (id 2) (at 148.59 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" (id 3) (at 148.59 182.88 0)
@@ -5560,7 +5560,7 @@
       (reference "U1") (unit 1) (value "RT9742GGJ5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/25da1e56-3266-45da-a5a7-748f51f1532f"
-      (reference "U2") (unit 1) (value "74LVC1G07") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering")
+      (reference "U2") (unit 1) (value "74LVC1G07") (footprint "Package_TO_SOT_SMD:SOT-23-5_HandSoldering")
     )
     (path "/01206ff2-9474-4083-9f5e-454358df9096"
       (reference "U3") (unit 1) (value "TPD4EUSB30") (footprint "Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm")
