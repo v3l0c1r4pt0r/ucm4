@@ -2608,9 +2608,6 @@
   (gr_text "PWR" (at 173.5 115.6) (layer "F.SilkS") (tstamp e5bb593f-366b-4a69-8906-d2c24e5a0698)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "TODO: 5V TP?" (at 132.5 107.5) (layer "User.4") (tstamp 804d0f88-1a1b-4e89-8ca0-460ccc34e070)
-    (effects (font (size 0.5 0.5) (thickness 0.125)))
-  )
 
   (segment (start 164.195 117.5) (end 163.5 116.805) (width 0.13) (layer "F.Cu") (net 3) (tstamp 1e31c229-6780-4a43-88a9-17df5c7b5e56))
   (segment (start 162.5 113.5) (end 162.34002 113.34002) (width 0.13) (layer "F.Cu") (net 3) (tstamp 31ff1104-6f4a-4ce6-813e-dcefbe0d6c53))
