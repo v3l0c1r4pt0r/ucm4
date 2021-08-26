@@ -119,6 +119,7 @@
         0.0,
         0.127,
         0.13,
+        0.147,
         0.2,
         0.25,
         0.4,
@@ -370,7 +371,7 @@
     "classes": [
       {
         "bus_width": 6.0,
-        "clearance": 0.127,
+        "clearance": 0.16,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -387,8 +388,8 @@
       },
       {
         "bus_width": 6.0,
-        "clearance": 0.13,
-        "diff_pair_gap": 0.13,
+        "clearance": 0.16,
+        "diff_pair_gap": 0.16,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.147,
         "line_style": 0,
@@ -432,7 +433,7 @@
       },
       {
         "bus_width": 6.0,
-        "clearance": 0.13,
+        "clearance": 0.16,
         "diff_pair_gap": 0.13,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.127,
