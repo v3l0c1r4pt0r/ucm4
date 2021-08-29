@@ -63,7 +63,7 @@
       (svgprecision 6)
       (excludeedgelayer true)
       (plotframeref false)
-      (viasonmask true)
+      (viasonmask false)
       (mode 1)
       (useauxorigin false)
       (hpglpennumber 1)
