@@ -4613,7 +4613,7 @@
     (uuid debd560e-0565-4cbf-9569-5f25352bd66e)
     (property "Reference" "JP1" (id 0) (at 137.16 162.0478 0))
     (property "Value" "SolderJumper_2_Open" (id 1) (at 137.16 164.3465 0))
-    (property "Footprint" "Special:Jumper" (id 2) (at 137.16 166.37 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (id 2) (at 137.16 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 137.16 166.37 0)
@@ -5564,7 +5564,7 @@
       (reference "J4") (unit 1) (value "USB_B_Micro") (footprint "Special:U254-05XX-4BH81")
     )
     (path "/debd560e-0565-4cbf-9569-5f25352bd66e"
-      (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Special:Jumper")
+      (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/6e99bc10-5f29-45d8-a271-3de00e4eb307"
       (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
