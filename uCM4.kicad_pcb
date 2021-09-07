@@ -52,7 +52,7 @@
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
-    (aux_axis_origin 120.94 125.04)
+    (aux_axis_origin 118.94 127.04)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
