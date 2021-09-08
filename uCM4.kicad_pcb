@@ -2623,10 +2623,6 @@
 
   (gr_line (start 169.5 119.5) (end 172 118) (layer "B.SilkS") (width 0.15) (tstamp 3f92e6c1-64aa-42bf-9fa7-b357c44d947c))
   (gr_line (start 169.5 119.5) (end 172 118) (layer "F.SilkS") (width 0.15) (tstamp 452e9c6a-b3a2-4b1a-a0d5-370e258ed3fd))
-  (gr_line (start 134.6 123.79) (end 157.28 120.13) (layer "Dwgs.User") (width 0.01) (tstamp 1a552e34-468a-41a1-9344-15ff63e0ec72))
-  (gr_line (start 134.6 86.21) (end 157.28 89.87) (layer "Dwgs.User") (width 0.01) (tstamp 218b6978-557c-497f-ae72-5c058374c496))
-  (gr_line (start 134.6 120.13) (end 157.28 123.79) (layer "Dwgs.User") (width 0.01) (tstamp 4df073ab-8f50-4eec-b216-71deec2b0d69))
-  (gr_line (start 134.6 89.87) (end 157.28 86.21) (layer "Dwgs.User") (width 0.01) (tstamp 5eb56d5f-c8f9-41d5-b116-3bd77ec009ab))
   (gr_arc (start 172.43875 121.538889) (end 175.94 121.54) (angle 89.47135836) (layer "Edge.Cuts") (width 0.1) (tstamp 06299689-f88f-4c39-9242-62d6d9f00dc1))
   (gr_line (start 175.94 121.54) (end 175.94 88.55) (layer "Edge.Cuts") (width 0.1) (tstamp 24d50fbe-d99d-49eb-8d0c-c0ad4912628b))
   (gr_arc (start 124.420294 121.559776) (end 120.94 121.54) (angle -90.81461221) (layer "Edge.Cuts") (width 0.1) (tstamp a0e5ef7c-88b9-4236-b393-f035a06976ca))
