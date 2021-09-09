@@ -4997,7 +4997,7 @@
     (uuid debd560e-0565-4cbf-9569-5f25352bd66e)
     (property "Reference" "J7" (id 0) (at 135.3778 173.99 90))
     (property "Value" "SolderJumper_2_Open" (id 1) (at 135.1365 165.1 90))
-    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (id 2) (at 133.35 171.45 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 133.35 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 133.35 171.45 0)
@@ -5630,7 +5630,7 @@
       (reference "J6") (unit 1) (value "DummyJ") (footprint "Special:DummyJ")
     )
     (path "/debd560e-0565-4cbf-9569-5f25352bd66e"
-      (reference "J7") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+      (reference "J7") (unit 1) (value "SolderJumper_2_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/6e99bc10-5f29-45d8-a271-3de00e4eb307"
       (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
