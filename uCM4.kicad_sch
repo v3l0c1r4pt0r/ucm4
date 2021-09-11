@@ -5211,7 +5211,7 @@
     (uuid 01206ff2-9474-4083-9f5e-454358df9096)
     (property "Reference" "U3" (id 0) (at 267.97 57.2728 0))
     (property "Value" "TPD4EUSB30DQAR" (id 1) (at 267.97 59.5715 0))
-    (property "Footprint" "Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm" (id 2) (at 243.84 78.74 0)
+    (property "Footprint" "Package_SON:USON-10_2.5x1.0mm_P0.5mm" (id 2) (at 243.84 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf" (id 3) (at 267.97 68.58 0)
@@ -5723,7 +5723,7 @@
       (reference "U2") (unit 1) (value "SN74LVC1G07DBVR") (footprint "Package_TO_SOT_SMD:SOT-23-5_HandSoldering")
     )
     (path "/01206ff2-9474-4083-9f5e-454358df9096"
-      (reference "U3") (unit 1) (value "TPD4EUSB30DQAR") (footprint "Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm")
+      (reference "U3") (unit 1) (value "TPD4EUSB30DQAR") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
     )
   )
 )
