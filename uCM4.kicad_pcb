@@ -2019,7 +2019,7 @@
     (property "Sheetfile" "uCM4.kicad_sch")
     (property "Sheetname" "")
     (path "/6e99bc10-5f29-45d8-a271-3de00e4eb307")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "Module1" (at 6.16 6.491) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 542a8b8f-3e9f-4b57-ac35-956f4e592175)
